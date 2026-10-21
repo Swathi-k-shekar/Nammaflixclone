@@ -13,7 +13,10 @@
     <div class="hero-bg">
         <header class="header">
             <h1 class="logo">Nammaflix <span class="kannada-logo">ನಮ್ಮ ಫ್ಲಿಕ್ಸ್</span></h1>
-            <a href="#" class="sign-in-btn">Sign In</a>
+            <div class="header-right">
+                <div id="google_translate_element"></div>
+                <a href="#" class="sign-in-btn">Sign In</a>
+            </div>
         </header>
 
         <section class="hero">
@@ -29,54 +32,52 @@
     </div>
 
     <div class="features">
-        <!-- Feature 1: Accessibility (First!) -->
-        <section class="feature-row">
-            <div class="feature-text">
-                <h2>Accessibility Everywhere</h2>
-                <p>Available as an app on Android and iOS devices to stream entertainment directly to phones, smart TVs, and other digital gadgets.</p>
-            </div>
-            <div class="feature-image">
-                <img src="Assets/movies.png" alt="Devices showing streaming app">
-            </div>
-        </section>
+        <h2 class="features-title">All Features</h2>
+        <div class="features-container">
+            <!-- Feature 1: Direct Movie Premieres -->
+            <section class="feature-item">
+                <div class="feature-image">
+                    <img src="Assets/direct_ticketing.jpg" alt="Direct Ticketing">
+                </div>
+                <div class="feature-text">
+                    <h2>Direct Ticketing</h2>
+                    <p>Digital ticket purchases for direct Kannada movie premieres.</p>
+                </div>
+            </section>
 
-        <!-- Feature 2: Direct Movie Premieres -->
-        <section class="feature-row reverse">
-            <div class="feature-text">
-                <h2>Direct Movie Premieres</h2>
-                <p>A space for Kannada filmmakers to release their films directly to viewers through digital ticket purchases.</p>
-            </div>
-            <div class="feature-image">
-                <img src="https://images.unsplash.com/photo-1517604931442-7e0c8ed2963c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Cinema screen">
-            </div>
-        </section>
+            <!-- Feature 2: Content Library -->
+            <section class="feature-item">
+                <div class="feature-image">
+                    <img src="Assets/collections.jpg" alt="Collections">
+                </div>
+                <div class="feature-text">
+                    <h2>Collections</h2>
+                    <p>Extensive content library spanning latest movies and original content.</p>
+                </div>
+            </section>
 
-        <!-- Feature 3: Content Library -->
-        <section class="feature-row">
-            <div class="feature-text">
-                <h2>Extensive Content Library</h2>
-                <p>Over 200 titles spanning direct releases, latest movies, retro classics, and original content.</p>
-            </div>
-            <div class="feature-image">
-                <img src="https://images.unsplash.com/photo-1604998103924-89e012e5265a?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Movie posters library">
-            </div>
-        </section>
+            <!-- Feature 3: Support for Creators -->
+            <section class="feature-item">
+                <div class="feature-image">
+                    <img src="Assets/creatorsupport.jpg" alt="Creator Support">
+                </div>
+                <div class="feature-text">
+                    <h2>Creator Support</h2>
+                    <p>Funding and hosting opportunities for new content generation teams.</p>
+                </div>
+            </section>
+        </div>
 
-        <!-- Feature 4: Support for Creators -->
-        <section class="feature-row reverse">
-            <div class="feature-text">
-                <h2>Support for Creators</h2>
-                <p>Funding and hosting opportunities for new content generation teams and web series producers.</p>
-            </div>
-            <div class="feature-image">
-                <img src="https://images.unsplash.com/photo-1485846234645-a62644f84728?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Filmmaking equipment">
-            </div>
-        </section>
+        <div class="features-conclusion">
+            <h2>Explore all our features for an immersive Kannada entertainment experience!</h2>
+        </div>
     </div>
 
     <footer class="footer">
         <p>Copyright &copy; 2023 Nammaflix Kannada. All rights reserved.</p>
         <p class="footer-country">Nammaflix Kannada  ನಮ್ಮ ಫ್ಲಿಕ್ಸ್</p>
     </footer>
+    <script src="script.js"></script>
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 </body>
 </html>
